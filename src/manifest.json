@@ -17,11 +17,8 @@
     },
     "permissions": [
         "storage",
-        "scripting",
         "tabs",
-        "activeTab",
-        "contextMenus",
-        "system.display"
+        "contextMenus"
     ],
     "background": {
         "service_worker": "background/index.js",

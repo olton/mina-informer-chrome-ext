@@ -11,7 +11,7 @@ chrome.runtime.onInstalled.addListener(async () => {
 chrome.contextMenus.onClicked.addListener(async (req, ...rest)=>{
     switch (req.menuItemId) {
         case 'github': {
-            await chrome.tabs.create({url: 'https://github.com/olton/mina-account-informer-chrome-ext'})
+            await chrome.tabs.create({url: 'https://github.com/olton/mina-informer-chrome-ext'})
             break
         }
         case 'options': {
