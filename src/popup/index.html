@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mina Informer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section>
+        <h1 style="font-weight: 100">
+            <span data-i18n="name">MINA INFORMER</span>
+            <span class="secondary-text" id="height">0</span>
+        </h1>
+        <div class="group">
+            <div id="address">xxxxxxxxxxxx...xxxxxxxxxxxx</div>
+
+            <div id="delegate-label" style="display: none">
+                <label data-i18n="delegated">DELEGATED TO</label>
+                <div id="delegate"></div>
+            </div>
+        </div>
+        <div class="group balance">
+            <div>MINA</div>
+            <div id="balance">0</div>
+            <div id="movable">0</div>
+            <div id="price-usd">0</div>
+        </div>
+        <div class="group">
+            <div style="margin: 10px 0;" data-i18n="history">
+                TRANSACTIONS HISTORY
+            </div>
+            <div class="wrapper">
+                <table>
+                    <tbody id="last_tx">
+                    <tr>
+                        <td data-i18n="loading">Loading...</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div style="text-align: center; color: #b7b7b7">
+            Copyright 2023 by <a class="mi__link" href="https://pimenov.com.ua" target="_blank" data-i18n="author">Serhii Pimenov</a>
+            <div><span data-i18n="name"></span> v0.1.0</div>
+        </div>
+    </footer>
+    <script src="datetime.js"></script>
+    <script src="utils.js"></script>
+    <script src="websocket.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

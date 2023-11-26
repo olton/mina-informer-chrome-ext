@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mina Informer Options</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <form class="mi__form">
+        <h1 class="mi__super">Mina Informer</h1>
+        <h4 data-i18n="options_form_title" class="mi__title">Extension Options</h4>
+        <div>
+            <label data-i18n="address_label" for="account-address">Address:</label>
+            <input type="text" name="account-address" id="account-address" placeholder="B62q..."/>
+        </div>
+        <div>
+            <label data-i18n="history_length_label" for="history-length">History Length:</label>
+            <input type="number" min="0" max="100" name="account-address" id="history-length" value="10"/>
+        </div>
+        <div class="mi__form-actions" style="align-items: flex-end">
+            <button data-i18n="save" class="mi__button mi-primary-color" id="js-save">Save</button>
+            <button data-i18n="cancel" class="mi__button" id="js-cancel">Cancel</button>
+            <div style="margin-left: auto">
+                Powered by <a href="https://minaprotocol.com"><img src="../images/mina.svg" style="height: 16px;"/></a>
+            </div>
+        </div>
+    </form>
+    <footer>
+        <div style="text-align: center;">
+            Copyright 2023 by <a href="https://pimenov.com.ua" class="mi__link">Serhii Pimenov</a>. All Right Reserved.
+        </div>
+        <div style="text-align: center;">
+            Datasource: <a class="mi__link" href="https://minataur.net">Minataur.net</a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

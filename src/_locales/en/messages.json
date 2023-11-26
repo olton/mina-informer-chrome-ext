@@ -1,0 +1,17 @@
+{
+    "name": {"message": "Mina Informer"},
+    "description": {"message": "Information about the status of Mina's account"},
+    "save": {"message": "Save"},
+    "cancel": {"message": "Cancel"},
+    "github": { "message": "Project on GitHub" },
+    "options": { "message": "Extension options" },
+    "options_form_title": {"message":  "Extension options"},
+    "address_label": {"message":  "Account address"},
+    "alert_not_valid_address": {"message": "The account address is not entered correctly!"},
+    "history_length_label": {"message": "Number of transactions in history"},
+    "movable": {"message": "Movable:"},
+    "loading": {"message": "Loading..."},
+    "delegated": {"message": "Delegated"},
+    "history": {"message": "TRANSACTIONS HISTORY"},
+    "author": {"message": "Serhii Pimenov"}
+}

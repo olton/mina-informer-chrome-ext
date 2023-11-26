@@ -1,0 +1,17 @@
+{
+    "name": {"message": "Mina Інформатор"},
+    "description": {"message": "Інформування про стан аккаунту Mina"},
+    "save": {"message": "Зберігти"},
+    "cancel": {"message": "Відміна"},
+    "github": { "message": "Сторінка проекту на GitHub" },
+    "options": { "message": "Параметри розширення" },
+    "options_form_title": {"message": "Параметри розширення"},
+    "address_label": {"message": "Адреса аккаунта"},
+    "alert_not_valid_address": {"message": "Не вірно введено адресу аккаунту!"},
+    "history_length_label": {"message": "Кількість транзакцій в історії"},
+    "movable": {"message": "Рухомий:"},
+    "loading": {"message": "Завантаження..."},
+    "delegated": {"message": "Делеговано"},
+    "history": {"message": "ІСТОРІЯ ТРАНЗАКЦІЙ"},
+    "author": {"message": "Сергій Піменов"}
+}
