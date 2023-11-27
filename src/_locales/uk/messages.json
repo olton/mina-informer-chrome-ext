@@ -13,5 +13,8 @@
     "loading": {"message": "Завантаження..."},
     "delegated": {"message": "Делеговано"},
     "history": {"message": "ІСТОРІЯ ТРАНЗАКЦІЙ"},
-    "author": {"message": "Сергій Піменов"}
+    "author": {"message": "Сергій Піменов"},
+    "block": {"message": "БЛОК"},
+    "setup": { "message": "Зробить Налаштування" },
+    "nothing": {"message":"Нічого показувать"}
 }

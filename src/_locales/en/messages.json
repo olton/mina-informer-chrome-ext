@@ -13,5 +13,8 @@
     "loading": {"message": "Loading..."},
     "delegated": {"message": "Delegated"},
     "history": {"message": "TRANSACTIONS HISTORY"},
-    "author": {"message": "Serhii Pimenov"}
+    "author": {"message": "Serhii Pimenov"},
+    "block": {"message": "BLOCK"},
+    "setup": {"message": "Make Settings"},
+    "nothing": {"message":"Nothing to show"}
 }

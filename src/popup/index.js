@@ -23,12 +23,12 @@ globalThis.wsController = (ws, res) => {
             break
         }
         case 'height': {
-            block("#height").innerHTML = `BLOCK: ${data}`
+            block("#height").innerHTML = `${chrome.i18n.getMessage('block')}: ${data}`
             break
         }
         case 'address': {
             const delegateLabel = document.querySelector("#delegate-label")
-            document.querySelector("#delegate").innerHTML = data.delegate_key
+            document.querySelector("#delegate").innerHTML = `<a class="mi-dark no-decor" href="https://minataur.net/address/${data.delegate_key}" target="_blank">${shorten(data.delegate_key, 12)}</a>`
             if (data.public_key !== data.delegate_key) {
                 delegateLabel.style.display = 'block'
             } else {
@@ -42,11 +42,10 @@ globalThis.wsController = (ws, res) => {
             const priceUSD = (data.total/10**9) * (globalThis.price.current_price || 0)
             block("#balance").innerHTML = `${formatNumber(+mina, "0", "3", ",")}<span class="nanomina">.${nano}</span>`
             block("#movable").innerHTML = `<span class="nanomina">MOVABLE:</span> <span class="mi-success">${formatNumber(+movable, "4", "3", ",")}</span>`
-            block("#price-usd").innerHTML = `$${formatNumber(priceUSD, 4, 3, ",", ".")}`
+            block("#price-usd").innerHTML = `~ $${formatNumber(priceUSD, 4, 3, ",", ".")}`
             break
         }
         case 'address_last_trans': {
-            console.log(data)
             if (Array.isArray(data)) {
                 const target = document.querySelector("#last_tx")
                 target.innerHTML = ''
@@ -84,6 +83,11 @@ window.addEventListener("load", ()=>{
     })
 
     chrome.storage.sync.get(['MINA_ACCOUNT_INFORMER'], (result) => {
+        if (!result['MINA_ACCOUNT_INFORMER']) {
+            block("#address").innerHTML = `${chrome.i18n.getMessage('setup')}`
+            block("#last_tx").innerHTML = `<tr><td>${chrome.i18n.getMessage('nothing')}</td></tr>`
+            return
+        }
         const {a = '', h = 10} = result['MINA_ACCOUNT_INFORMER']
         globalThis.accountAddress = a
         globalThis.historyLength = +h
