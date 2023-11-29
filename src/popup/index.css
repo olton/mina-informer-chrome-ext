@@ -69,14 +69,15 @@ table tr:not(:nth-last-child(1)) td {
   border-bottom: 1px solid #d2d2d2;
 }
 table td {
-  padding: 4px 8px;
+  padding: 4px;
 }
 .mi__link {
   color: #1e2128;
   text-decoration: none;
 }
 #address {
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 600;
 }
 #price-usd {
   margin-top: 6px;
@@ -122,7 +123,7 @@ table td {
   border-radius: 50%;
 }
 .mi-applied {
-  background: #198a00;
+  background: #1dad06;
 }
 .mi-failed {
   background: #ad2a14;

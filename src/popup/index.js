@@ -4,7 +4,7 @@ globalThis.wsController = (ws, res) => {
     const {channel, data} = res
     switch (channel) {
         case 'welcome': {
-            block("#address").innerHTML = `<a target="_blank" class="mi-dark no-decor" href="https://minataur.net/address/${globalThis.accountAddress}">${shorten(globalThis.accountAddress, 12)}</a>`
+            block("#address").innerHTML = `<a target="_blank" class="mi-dark no-decor" href="https://minataur.net/address/${globalThis.accountAddress}">${shorten(globalThis.accountAddress, 10)}</a>`
             request('height')
             request('price')
             request('address', globalThis.accountAddress)
@@ -14,6 +14,7 @@ globalThis.wsController = (ws, res) => {
         }
         case 'price': {
             globalThis.price = data
+            console.log(price)
             setTimeout(request, 60000, 'price')
             break
         }
@@ -42,7 +43,7 @@ globalThis.wsController = (ws, res) => {
             const priceUSD = (data.total/10**9) * (globalThis.price.current_price || 0)
             block("#balance").innerHTML = `${formatNumber(+mina, "0", "3", ",")}<span class="nanomina">.${nano}</span>`
             block("#movable").innerHTML = `<span class="nanomina">MOVABLE:</span> <span class="mi-success">${formatNumber(+movable, "4", "3", ",")}</span>`
-            block("#price-usd").innerHTML = `~ $${formatNumber(priceUSD, 4, 3, ",", ".")}`
+            block("#price-usd").innerHTML = `(1 x <span class="${+globalThis.price.price_change_24h > 0 ? 'mi-success' : 'mi-alert'}">${(globalThis.price.current_price.toFixed(4) || 0)}</span>) ~ $${formatNumber(priceUSD, 4, 3, ",", ".")}`
             break
         }
         case 'address_last_trans': {

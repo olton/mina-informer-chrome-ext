@@ -1,13 +1,10 @@
 {
-  "name": "mina-account-informer-chrome-ext",
+  "name": "mina-informer-chrome-ext",
   "version": "1.0.0",
   "description": "Chrome extension for showing account info",
   "main": "src/manifest.json",
   "type": "module",
-  "scripts": {
-    "build": "rollup -c",
-    "start": "rollup -c -w"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "Serhii Pimenov <sergii@pimenov.com.ua>",
   "license": "MIT",
