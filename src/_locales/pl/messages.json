@@ -1,0 +1,22 @@
+{
+    "name": {"message": "Mina.Informer"},
+    "description": {"message": "Informacje o statusie konta Mina"},
+    "save": {"message": "Zapisz"},
+    "cancel": {"message": "Anuluj"},
+    "github": { "message": "Project on GitHub" },
+    "options": { "message": "Opcje rozszerzenia" },
+    "options_form_title": {"message":  "Opcje rozszerzenia"},
+    "address_label": {"message":  "Adres konta"},
+    "alert_not_valid_address": {"message": "Podany adres konta jest niewłaściwy!"},
+    "history_length_label": {"message": "Liczba transakcji w historii"},
+    "movable": {"message": "Ruchomy:"},
+    "loading": {"message": "Ładowanie..."},
+    "delegated": {"message": "Oddelegowano"},
+    "history": {"message": "Historia transakcji"},
+    "author": {"message": "Serhii Pimenov"},
+    "block": {"message": "BLOK"},
+    "setup": {"message": "Stwórz preferencje"},
+    "nothing": {"message":"Nic do pokazania"},
+    "made": {"message":"Wyprodukowano na Ukrainie"},
+    "community_translations": {"message":"Z tłumaczeniami społecznościowymi"}
+}

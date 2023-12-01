@@ -1,0 +1,22 @@
+{
+    "name": {"message": "Mina.Informer"},
+    "description": {"message": "Πληροφορίες για την κατάσταση του Mina λογαριασμου"},
+    "save": {"message": "Αποθηκευση"},
+    "cancel": {"message": "Ακύρωση"},
+    "github": { "message": "Project on GitHub" },
+    "options": { "message": "Επιλογές επέκτασης" },
+    "options_form_title": {"message":  "Επιλογές επέκτασης"},
+    "address_label": {"message":  "Διεύθυνση λογαριασμού"},
+    "alert_not_valid_address": {"message": "Η διεύθυνση λογαριασμού δεν έχει εισαχθεί σωστά!"},
+    "history_length_label": {"message": "Ιστορικό αριθμού συναλλαγών"},
+    "movable": {"message": "Κινούμενος:"},
+    "loading": {"message": "Φόρτωση..."},
+    "delegated": {"message": "Σε ανάθεση"},
+    "history": {"message": "Ιστορικό συναλλαγών"},
+    "author": {"message": "Serhii Pimenov"},
+    "block": {"message": "φραγμός"},
+    "setup": {"message": "Ρυθμίσεις"},
+    "nothing": {"message":"Τίποτα προς εμφάνιση"},
+    "made": {"message":"Κατασκευάζεται στην Ουκρανία"},
+    "community_translations": {"message":"Με κοινοτικές μεταφράσεις"}
+}

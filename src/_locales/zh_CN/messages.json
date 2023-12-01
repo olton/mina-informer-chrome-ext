@@ -1,0 +1,22 @@
+{
+    "name": {"message": "Mina.Informer"},
+    "description": {"message": "Mina账户状态信息"},
+    "save": {"message": "保存"},
+    "cancel": {"message": "取消"},
+    "github": { "message": "Project on GitHub" },
+    "options": { "message": "扩展选项" },
+    "options_form_title": {"message":  "扩展选项"},
+    "address_label": {"message":  "账户地址"},
+    "alert_not_valid_address": {"message": "账户地址输入不正确！"},
+    "history_length_label": {"message": "历史交易数量"},
+    "movable": {"message": "可动:"},
+    "loading": {"message": "加载中..."},
+    "delegated": {"message": "已委托"},
+    "history": {"message": "交易历史"},
+    "author": {"message": "Serhii Pimenov"},
+    "block": {"message": "堵塞"},
+    "setup": {"message": "调整设置"},
+    "nothing": {"message":"没有可显示的内容"},
+    "made": {"message":"乌克兰制造"},
+    "community_translations": {"message":"通过社区翻译"}
+}

@@ -1,0 +1,22 @@
+{
+    "name": {"message": "Mina.Informer"},
+    "description": {"message": "Информация про статус аккаунта Mina"},
+    "save": {"message": "Сохранить"},
+    "cancel": {"message": "Отменить"},
+    "github": { "message": "Project on GitHub" },
+    "options": { "message": "Опции расширения" },
+    "options_form_title": {"message":  "Опции расширения"},
+    "address_label": {"message":  "Адрес аккаунта"},
+    "alert_not_valid_address": {"message": "Адрес аккаунта введён неправильно!"},
+    "history_length_label": {"message": "Число транзакций в истории"},
+    "movable": {"message": "Движимое:"},
+    "loading": {"message": "Загрузка..."},
+    "delegated": {"message": "Делегированно"},
+    "history": {"message": "ИСТОРИЯ ТРАНЗАКЦИЙ"},
+    "author": {"message": "Serhii Pimenov"},
+    "block": {"message": "БЛОК"},
+    "setup": {"message": "Сделать настройки"},
+    "nothing": {"message":"Нечего показать"},
+    "made": {"message":"Слава Украине!"},
+    "community_translations": {"message":"С переводами сообщества"}
+}

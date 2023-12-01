@@ -49,6 +49,12 @@ small {
 .mi-pink {
   color: #c67cff;
 }
+.mi-blue {
+  color: #468cff;
+}
+.mi-yellow {
+  color: #ffce4d;
+}
 #balance {
   font-size: 28px;
   color: #468cff;

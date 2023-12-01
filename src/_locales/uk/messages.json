@@ -1,5 +1,5 @@
 {
-    "name": {"message": "Mina Інформатор"},
+    "name": {"message": "Mina.Інформатор"},
     "description": {"message": "Інформування про стан аккаунту Mina"},
     "save": {"message": "Зберігти"},
     "cancel": {"message": "Відміна"},
@@ -16,5 +16,7 @@
     "author": {"message": "Сергій Піменов"},
     "block": {"message": "БЛОК"},
     "setup": { "message": "Зробить Налаштування" },
-    "nothing": {"message":"Нічого показувать"}
+    "nothing": {"message":"Нічого показувать"},
+    "made": {"message":"Зроблено в Україні"},
+    "community_translations": {"message":"З перекладами спільноти"}
 }
