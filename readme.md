@@ -7,7 +7,7 @@ Information about the status of Mina's account. View your Mina account balance a
 </p>
 
 ### Translations
-Translate into Arabic, Spanish, Greek, French, Polish, Russian, Turkish and Chinese by the Mina community with the support of the portal https://zkok.io/
+Translated into Arabic, Spanish, Greek, French, Polish, Russian, Turkish, and Chinese by the Mina community with the support of the portal https://zkok.io/
 
 ---
 
